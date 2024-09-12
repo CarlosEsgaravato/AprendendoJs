@@ -1,0 +1,22 @@
+operadores js
+
++ soma
+- sub
+* multiplicação
+/ divisão
+% resto da divisão inteira
+** ao quadrado
+
+Ordem de precedencia dos calculos, qual é feita a conta primeiro:
+
+()
+**
+* ou / ou %
+* ou -
+
+incremento
+++ aumenta 1
+-- diminui 1
+
+
+ 

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(33, 23, 56);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>teste</h1>
+    <p>testando mais uma vez</p>
+    <p>testando o <strong>DOM</strong> em JS</p>
+    <div>clique aqui</div>
+
+    <Script>
+        var p1 = document.getElementsByTagName("p")[1]
+        window.document.write(p1.innerText) //selecionando a tag p, de acordo com o array, formatado apenas como texto.
+        //window.document.write(p1.innerHTML) //selecionando a tag p, de acordo com o array, formatado extamente como está.
+    </Script>
+</body>
+</html>
